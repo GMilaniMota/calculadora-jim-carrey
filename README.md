@@ -1,2 +1,2 @@
-# calculadora-jim-carry
-Calculadora feita em jQuery (Jim Carry).
+# calculadora-jim-carrey
+Calculadora feita em jQuery (Jim Carrey).
