@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/js/main.js"></script>
     <link rel="icon" type="image/x-icon" href="css/img/favicon.ico">
     <link rel="stylesheet" href="/css/style.css">
     <title>Calculadora</title>
@@ -18,9 +17,9 @@
 		<section id="calculator">
 			<header class="top">
                 <h4>Calculadora Jim Carrey</h4>
-				<input type="text" class="valueDisplay" disabled>
+				<input type="text" class="valueDisplay" value="" disabled>
 			</header>
-			<ul class="numberRows">
+			<ul class="btnRows">
 				<li>
                     <button class="number">7</button>
                 </li>
@@ -43,7 +42,7 @@
                     <button class="number">6</button>
                 </li>
 				<li>
-                    <button class="operador">*</button>
+                    <button class="operator">*</button>
                 </li>
 				<li>
                     <button class="number">1</button>
@@ -63,17 +62,21 @@
 				<li>
                     <button class="float">.</button>
                 </li>
+                <li>
+                    <button class="operator">%</button>
+                </li>
 				<li>
                     <button class="operator">+</button>
                 </li>
-				<li>
-                    <button class="reset">C</button>
+                <li>
+                    <button class="calculate">=</button>
                 </li>
 				<li>
-                    <button class="calculate">=</button>
+                    <button class="clear">C</button>
                 </li>
 			</ul>
 		</section>
 	</div>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 	font-size: 22px;
 }
 
+body {
+	background: radial-gradient(#fff #eee);
+}
+
 li{
 	list-style:none;
 }
@@ -21,16 +25,17 @@ h4 {
 #container{
 	width: 290px;
 	text-align: center;
-	height:auto;
-	margin:4px auto;
+	height: auto;
+	margin: 12rem auto;
 }
 
 #calculator{
 	width: 234px;
 	height: 265px;
-	margin:0 auto;
-	padding:2px;
+	margin: 0 auto;
+	padding: 2px;
 	background-color: #988AFF;
+	box-shadow: 4px 4px 8px black;
 }
 
 .valueDisplay{
@@ -46,7 +51,7 @@ h4 {
 	box-shadow: inset -1px -1px 4px 1px #eee;
 }
 
-.numberRows button{
+.btnRows button{
 	width:50px;
 	height:30px;
 	border-radius:3px;
@@ -60,15 +65,15 @@ h4 {
 	box-shadow: 0px 3px 1px 0px #444651;
 }
 
-.numberRows button:hover{
+.btnRows button:hover{
 	background-color: #CA42FF;
 	transition:0.2s;
 }
 
-.numberRows button:active{
+.btnRows button:active{
 	box-shadow: 0px 1px 1px 0px #444651;
 }
 
 .calculate{
-	width: 93.4% !important;
+	width: 69.7% !important;
 }
